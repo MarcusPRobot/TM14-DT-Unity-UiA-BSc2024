@@ -1,0 +1,1243 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'no' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/marcu/Unity/omrontm14-unity-ros2-main/omrontm14-unity-ros2-main
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54781
+Successfully changed project path to: C:/Users/marcu/Unity/omrontm14-unity-ros2-main/omrontm14-unity-ros2-main
+C:/Users/marcu/Unity/omrontm14-unity-ros2-main/omrontm14-unity-ros2-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26304] Host "[IP] 25.85.158.116 [Port] 0 [Flags] 2 [Guid] 4098853530 [EditorId] 4098853530 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0IAVIB16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26304] Host "[IP] 25.85.158.116 [Port] 0 [Flags] 2 [Guid] 4098853530 [EditorId] 4098853530 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0IAVIB16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 398.74 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marcu/Unity/omrontm14-unity-ros2-main/omrontm14-unity-ros2-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009421 seconds.
+- Loaded All Assemblies, in  0.441 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 782ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.198 seconds
+Refreshing native plugins compatible for Editor in 531.95 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.149 seconds
+Domain Reload Profiling: 2340ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (819ms)
+		LoadAssemblies (552ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (353ms)
+				TypeCache.ScanAssembly (332ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1149ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (937ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (751ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 453.29 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 902 unused Assets / (0.8 MB). Loaded Objects now: 3669.
+Memory consumption went from 150.9 MB to 150.1 MB.
+Total: 8.234000 ms (FindLiveObjects: 0.474000 ms CreateObjectMapping: 0.329500 ms MarkObjects: 5.186800 ms  DeleteObjects: 2.241100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1015843.291162 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 5 norm.jpg
+  artifactKey: Guid(9bc92114b7e87ac4ca2fd03dcb57e235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 5 norm.jpg using Guid(9bc92114b7e87ac4ca2fd03dcb57e235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02efa3f54b4cceacff8680e5fcbe8e62') in 0.250693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 7 diff.jpg
+  artifactKey: Guid(79993ca7068361849b8059294dfed15c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 7 diff.jpg using Guid(79993ca7068361849b8059294dfed15c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff43da63367af8c25a1e022705ac202f') in 0.051988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Marcus Scripts/Testing Scripts/WeightBlockMover.cs
+  artifactKey: Guid(b70738b0cb81d4e46a8cdb5c0b6d1ccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Marcus Scripts/Testing Scripts/WeightBlockMover.cs using Guid(b70738b0cb81d4e46a8cdb5c0b6d1ccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93611d16bcb05d6c4ec1c302fca41bb8') in 0.019998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 1 bump.jpg
+  artifactKey: Guid(148c15ca9e2437a429a209e7a73a40c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 1 bump.jpg using Guid(148c15ca9e2437a429a209e7a73a40c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd35217053c02115229e9a45d358d0e3') in 0.052456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 7 norm.jpg
+  artifactKey: Guid(6bb310ab9d722a143b28ac0bece0896c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 7 norm.jpg using Guid(6bb310ab9d722a143b28ac0bece0896c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29e8792d6bcbfdb81fe394e13e1fc00c') in 0.050282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 2 full.jpg
+  artifactKey: Guid(7514b88701c66f5439d3a581bc61ed51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 2 full.jpg using Guid(7514b88701c66f5439d3a581bc61ed51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61b55caae0a86863699efc90dee99374') in 0.048939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 7 metal.mat
+  artifactKey: Guid(10d8d11964e55864d8eaa3bf6d2503e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 7 metal.mat using Guid(10d8d11964e55864d8eaa3bf6d2503e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '298eef933798d1af4188bf21811f947c') in 0.109695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 6 diff.jpg
+  artifactKey: Guid(112fc849185eb34499dd47c023c0c017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 6 diff.jpg using Guid(112fc849185eb34499dd47c023c0c017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2183b47c679be14b6540571d41ee50b7') in 0.052775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 5 diff.jpg
+  artifactKey: Guid(356ba3c6e1eb6684b93e644f6da6c742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 5 diff.jpg using Guid(356ba3c6e1eb6684b93e644f6da6c742) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '911eb177abb5a450a35d1edf70561385') in 0.057215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 6 norm.jpg
+  artifactKey: Guid(6677bf17d62f7314eb68d613996045d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 6 norm.jpg using Guid(6677bf17d62f7314eb68d613996045d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a64493b804f8d048ff421eba76d6070c') in 0.059092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 2 norm.jpg
+  artifactKey: Guid(c76c8c1e94afdbf4fb58de5bfa7c3702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 2 norm.jpg using Guid(c76c8c1e94afdbf4fb58de5bfa7c3702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a7a8a71f87224d4c5cadd36c0614617') in 0.053757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 2 metal.mat
+  artifactKey: Guid(9c74391b78e25e6468bbf85e0cea7363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 2 metal.mat using Guid(9c74391b78e25e6468bbf85e0cea7363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b93bc558cce0dea149be8d5a0e99d282') in 0.032747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 8 diff.jpg
+  artifactKey: Guid(c9e979902b785c349b1125bcedc8293d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 8 diff.jpg using Guid(c9e979902b785c349b1125bcedc8293d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acf9a06eacf0e2e8a24dcddc711f3dc6') in 0.052009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 1 full.jpg
+  artifactKey: Guid(30c6c93ed424f8040be2d0cd03e2404c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 1 full.jpg using Guid(30c6c93ed424f8040be2d0cd03e2404c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7937b8d142370156e3259628138ce3a') in 0.051458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/Bin.fbx
+  artifactKey: Guid(b0015c65389e1fe4681f575175d8951c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/Bin.fbx using Guid(b0015c65389e1fe4681f575175d8951c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1abe2401d5dbf1f57ef8908717f31815') in 0.091266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/Example Materials
+  artifactKey: Guid(454febcfb76a96c48b17b4d68f9167f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/Example Materials using Guid(454febcfb76a96c48b17b4d68f9167f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a888aa623625c76c70a04e4d14a18be') in 0.016991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Straw.mat
+  artifactKey: Guid(16d2e5bf6c39c25478dfe81b61262eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Straw.mat using Guid(16d2e5bf6c39c25478dfe81b61262eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd47951865bc040c99e615ccb0315128e') in 0.117941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 6 norm.jpg
+  artifactKey: Guid(ea0d4b0b80d4e60448bad284d6f204f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 6 norm.jpg using Guid(ea0d4b0b80d4e60448bad284d6f204f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef3fb70ebb4391fa2e2169e18315e8f4') in 0.041239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ros2ForUnity/Plugins/Linux/x86_64/libvisualization_msgs_interactive_marker_feedback__rosidl_typesupport_fastrtps_c_native.so
+  artifactKey: Guid(3f5fdb3971361498cac3a04bdad7b2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ros2ForUnity/Plugins/Linux/x86_64/libvisualization_msgs_interactive_marker_feedback__rosidl_typesupport_fastrtps_c_native.so using Guid(3f5fdb3971361498cac3a04bdad7b2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6abcd670b1eb5ab693fa66b3216e1f') in 0.012827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Ros2ForUnity/Plugins/Linux/x86_64/libsensor_msgs_joy_feedback_array__rosidl_typesupport_fastrtps_c_native.so
+  artifactKey: Guid(ff2060b109c2411039ed68729766239b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ros2ForUnity/Plugins/Linux/x86_64/libsensor_msgs_joy_feedback_array__rosidl_typesupport_fastrtps_c_native.so using Guid(ff2060b109c2411039ed68729766239b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4106c5e257090c573306e466cac9e71a') in 0.001789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 10 bump.jpg
+  artifactKey: Guid(74da58b943809354496ba29883dae45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 10 bump.jpg using Guid(74da58b943809354496ba29883dae45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c5fafd6c37e45221a8c679cb9b957b2') in 0.049661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 1 norm.jpg
+  artifactKey: Guid(7b1659a271902514fa94da39dd36828d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 1 norm.jpg using Guid(7b1659a271902514fa94da39dd36828d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bbf8788d8afab2b77635c80d3b1f22d') in 0.056058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 1 metal.mat
+  artifactKey: Guid(9332ce35caf40ef4d81da678ae81a427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 1 metal.mat using Guid(9332ce35caf40ef4d81da678ae81a427) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4f43aaa8c9a1b829e437b3a0b88c5c9') in 0.023070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 8 fx.jpg
+  artifactKey: Guid(64951a18ac3a1b5408d1c9da6a33744a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 8 fx.jpg using Guid(64951a18ac3a1b5408d1c9da6a33744a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6828f0fe347abdf42c11d437ed50bf7b') in 0.054234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 4 norm.jpg
+  artifactKey: Guid(9c60e37d599fa1f4c846295a9b2f5471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 4 norm.jpg using Guid(9c60e37d599fa1f4c846295a9b2f5471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '443c5a9904ddf0b0c96f9f953d58bd8d') in 0.052127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Tall Cabinet.prefab
+  artifactKey: Guid(cdcb1a981a42bee4d89dd0c4899b3fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Tall Cabinet.prefab using Guid(cdcb1a981a42bee4d89dd0c4899b3fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fd565cf2fcb33df04cb98a871b97aac') in 0.027613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Hook Rail with Hooks Set.prefab
+  artifactKey: Guid(bb7dde9fdc623d841b3d3d6aea6bffef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Hook Rail with Hooks Set.prefab using Guid(bb7dde9fdc623d841b3d3d6aea6bffef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bfddd56ab2ddeaf357ad2daa9e36e99') in 0.044480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Plastic (Black).mat
+  artifactKey: Guid(0a4bd17b686dce849a064999b860d9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Plastic (Black).mat using Guid(0a4bd17b686dce849a064999b860d9cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de80dfd2033445e083a159f442790889') in 0.023723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/CeilingHungRack3.fbx
+  artifactKey: Guid(2b8000d78f902a743a225f65d612c4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/CeilingHungRack3.fbx using Guid(2b8000d78f902a743a225f65d612c4d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '971708a4ef8f0c222ced25769015bb81') in 0.047608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Plastic (Blue).mat
+  artifactKey: Guid(4359942d79577034ca02fd1a5318d80f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Plastic (Blue).mat using Guid(4359942d79577034ca02fd1a5318d80f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25aee17cae9ab0adb1e9195c2df46fe2') in 0.022597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Bucket.prefab
+  artifactKey: Guid(6a563f89a23ae0a42bf4d38da9d5a9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Bucket.prefab using Guid(6a563f89a23ae0a42bf4d38da9d5a9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3fef93e4e260a451be946a961338dad') in 0.027587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/Example Materials/Pipe 4 PlasticRubber.mat
+  artifactKey: Guid(307197e16c1dd954f988a1efa0f1e858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/Example Materials/Pipe 4 PlasticRubber.mat using Guid(307197e16c1dd954f988a1efa0f1e858) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fb2b6b6c1abc808cc5e35dd3b19309b') in 0.052290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs
+  artifactKey: Guid(5a2421ba713891e4c986e5b8d917c9dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs using Guid(5a2421ba713891e4c986e5b8d917c9dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f95a63ba6e2dc2936c4ca5efb770638c') in 0.020241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 9 full.jpg
+  artifactKey: Guid(6b7e5d53c2c854b4096216ff1e1e2c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 9 full.jpg using Guid(6b7e5d53c2c854b4096216ff1e1e2c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e076c49018e3e3b771159c21b6340a33') in 0.055442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 10 diff.jpg
+  artifactKey: Guid(fefbff99babd6ed4f8a951a59e1b10be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 10 diff.jpg using Guid(fefbff99babd6ed4f8a951a59e1b10be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f868a4d668566ef060797d66450dc619') in 0.062289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 9 diff.jpg
+  artifactKey: Guid(21aec9b7d34b6d848adc27540b961d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 9 diff.jpg using Guid(21aec9b7d34b6d848adc27540b961d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f79cdc029a65fc18e6a64914302382b') in 0.055051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 1 bump.jpg
+  artifactKey: Guid(84d4901b659893048add0ae8a569343d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 1 bump.jpg using Guid(84d4901b659893048add0ae8a569343d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bd87204ebddb6de700bc3fc4cf643e5') in 0.048657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/GarageDoorOpen.fbx
+  artifactKey: Guid(c0a10928ba2fa5c458cbce27a546f1ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/GarageDoorOpen.fbx using Guid(c0a10928ba2fa5c458cbce27a546f1ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e8bcf9665d5efd7dab6daa9fc08190e') in 0.049791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials
+  artifactKey: Guid(3f227a1e5ee201b469adc3c0d4286277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials using Guid(3f227a1e5ee201b469adc3c0d4286277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c8b94728acfe94e6130585adf8a7785') in 0.018475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Plastic (Yellow).mat
+  artifactKey: Guid(0fa96d8766327a649abab28511ac5531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Plastic (Yellow).mat using Guid(0fa96d8766327a649abab28511ac5531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0826261d44f65c3e5b5f671083c14e73') in 0.021335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/ShelfSystemAssembled.fbx
+  artifactKey: Guid(99a7c3d64cbf6194abc4d25b923e2a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/ShelfSystemAssembled.fbx using Guid(99a7c3d64cbf6194abc4d25b923e2a3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '234798b7c92c6d465eb1d4e5bd6d9e82') in 0.158561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 237
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Milk Crate.prefab
+  artifactKey: Guid(f686430d11a3cd5479dbba4fd97a6d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Milk Crate.prefab using Guid(f686430d11a3cd5479dbba4fd97a6d95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c21076a118c4f8820d720c1cc4db4cd') in 0.030601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Hook 1.prefab
+  artifactKey: Guid(aca83cb065679514a89c0ea3a9685bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Hook 1.prefab using Guid(aca83cb065679514a89c0ea3a9685bd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7721c8f783c2d52c513ee610d3b96e0') in 0.038101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Fabric - Straw/fabrics_0062_height_2k.png
+  artifactKey: Guid(fb3abde079b7b7044a3726957274b5cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Fabric - Straw/fabrics_0062_height_2k.png using Guid(fb3abde079b7b7044a3726957274b5cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5acd58cb425780ff31da66ed437d7f0e') in 0.050736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/GrassFlat.prefab
+  artifactKey: Guid(bc2650b9ad53a6141b52b810d2ef2ed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/GrassFlat.prefab using Guid(bc2650b9ad53a6141b52b810d2ef2ed8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45f394093ce18d17f47160cb91b69f5c') in 0.032163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Modular Shelf Support 1.prefab
+  artifactKey: Guid(4fd10c8fae4bba542a4d84cd09339061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Modular Shelf Support 1.prefab using Guid(4fd10c8fae4bba542a4d84cd09339061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7306d272e13b4a27ed0abc36e4cb7d57') in 0.033020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Wall Rack Shelf.prefab
+  artifactKey: Guid(5266a753d4a31a5488976e396ab4793e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Wall Rack Shelf.prefab using Guid(5266a753d4a31a5488976e396ab4793e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74e22db7a1103df93fc71644dcf0b233') in 0.030760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 5 norm.jpg
+  artifactKey: Guid(1830a606b04165340913e4bffc22888e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 5 norm.jpg using Guid(1830a606b04165340913e4bffc22888e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f70e6418e0dae302643eb47f89006d3') in 0.055256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 5 diff.jpg
+  artifactKey: Guid(3f781478cdc87b54fb4eb26bf01425c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 5 diff.jpg using Guid(3f781478cdc87b54fb4eb26bf01425c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bbdc69b226fb9860e3fbd3c119d679d') in 0.063474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets & Materials/Imported/Inverse Kinematics/Textures/Arm Normals.tga
+  artifactKey: Guid(f3b8a1b2025a2b14da282ba7b5b7e9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/Inverse Kinematics/Textures/Arm Normals.tga using Guid(f3b8a1b2025a2b14da282ba7b5b7e9a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d948af38447ce9d139ee73db279fe39') in 0.051949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Materials/pipe 5 fx.mat
+  artifactKey: Guid(18ccd61a48bb4f947949237d5f934b0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Materials/pipe 5 fx.mat using Guid(18ccd61a48bb4f947949237d5f934b0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbf6bcc934c24c2e1d7b2cb119ae6f32') in 0.039327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Materials/pipe 2 full.mat
+  artifactKey: Guid(10cdc7d3e9b738644b372e27dad0af02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Materials/pipe 2 full.mat using Guid(10cdc7d3e9b738644b372e27dad0af02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76a7628d8f46e60727e5885b3efe821a') in 0.042670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/Materials/pipe 1 full.mat
+  artifactKey: Guid(e828283c9de28c84692bf77c24033c06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/Materials/pipe 1 full.mat using Guid(e828283c9de28c84692bf77c24033c06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38da20e7a52a5a56be72939e841fb9dc') in 0.036112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets & Materials
+  artifactKey: Guid(15fde10db99323a4a8b6557f71052b0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials using Guid(15fde10db99323a4a8b6557f71052b0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe0979e2213686452675e0cc121814e8') in 0.018201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets & Materials/Imported/Inverse Kinematics/3D/Materials/Arm.mat
+  artifactKey: Guid(16630cbf543d03d42b4dde7d0d66b32a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/Inverse Kinematics/3D/Materials/Arm.mat using Guid(16630cbf543d03d42b4dde7d0d66b32a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de2e4056a43f445b557410676a873ff5') in 0.094566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Curved Hook.prefab
+  artifactKey: Guid(db859ceb94ed41b4683d922ec0390a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Curved Hook.prefab using Guid(db859ceb94ed41b4683d922ec0390a04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '804bbf780ae780853337699f08198ca8') in 0.035177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 7 full.jpg
+  artifactKey: Guid(16c9879bcae670c4d9f4e3f0ab204693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 7 full.jpg using Guid(16c9879bcae670c4d9f4e3f0ab204693) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4564dcb6454b6315ca2b35b16bdd9904') in 0.062330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 3 metal.mat
+  artifactKey: Guid(98987bea75b5b574395b33591b119a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 3 metal.mat using Guid(98987bea75b5b574395b33591b119a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b018d4787dd4b97f0cb55cb971b6245') in 0.033857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 10 metal.mat
+  artifactKey: Guid(0bda7af8d810d3743803a717aa714f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 10 metal.mat using Guid(0bda7af8d810d3743803a717aa714f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6daabd09ca8c2892725f8f9952ce958') in 0.035249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/TallCabinet1.fbx
+  artifactKey: Guid(840c430af23374c4a9726f9bc0c4c8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/TallCabinet1.fbx using Guid(840c430af23374c4a9726f9bc0c4c8b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9370b3d9488252688929cfd101d5208d') in 0.051720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 9 norm.jpg
+  artifactKey: Guid(caeb4582408d8174c8fbe8a6fce433c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 9 norm.jpg using Guid(caeb4582408d8174c8fbe8a6fce433c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45edf2224a74d60f3160931265c3b489') in 0.072298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Wall Rack.prefab
+  artifactKey: Guid(0c85bd08c0158fd49a049f08520ff227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Wall Rack.prefab using Guid(0c85bd08c0158fd49a049f08520ff227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f1f59e2d1b9bc6941baac69d10971e2') in 0.048808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Fabric - Straw/fabrics_0062_roughness_2k.png
+  artifactKey: Guid(b46c46c4bab85e8428bd66172417b043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Materials/Fabric - Straw/fabrics_0062_roughness_2k.png using Guid(b46c46c4bab85e8428bd66172417b043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42c60e422894a815cf5c1aded3b20902') in 0.072389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets & Materials/Imported/Inverse Kinematics/3D
+  artifactKey: Guid(a6f1f532e390a034cbd66fb91be6b2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/Inverse Kinematics/3D using Guid(a6f1f532e390a034cbd66fb91be6b2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bda2a8ca179227e549be422814d19067') in 0.020196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ros2ForUnity/Plugins/Linux/x86_64/libsensor_msgs_joy_feedback_array__rosidl_typesupport_c_native.so
+  artifactKey: Guid(30b10226a2571a117ae754d0cc6fc997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ros2ForUnity/Plugins/Linux/x86_64/libsensor_msgs_joy_feedback_array__rosidl_typesupport_c_native.so using Guid(30b10226a2571a117ae754d0cc6fc997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7351da4de64c8cfb6eb2725a9d1584') in 0.001972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/CeilingHungRack2.fbx
+  artifactKey: Guid(04b837106212d3649bc651a11c5baddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/CeilingHungRack2.fbx using Guid(04b837106212d3649bc651a11c5baddc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a07088b7ddf655d2c4ea7d8745737310') in 0.041197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 3 full.jpg
+  artifactKey: Guid(16507a7dd35480947849e5f43c053f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 3 full.jpg using Guid(16507a7dd35480947849e5f43c053f7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bbf4357f877f98677212182e6a3ec69') in 0.065223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 9 bump.jpg
+  artifactKey: Guid(ca79471e8085b9b4fb177f5a6431eb92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 9 bump.jpg using Guid(ca79471e8085b9b4fb177f5a6431eb92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd180eaa3aa709c32a9fe641d635e385c') in 0.038858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/StorageTub.fbx
+  artifactKey: Guid(d05ab248ce2563246a729d4e80de23ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/StorageTub.fbx using Guid(d05ab248ce2563246a729d4e80de23ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf579a02c45331084932544fb22a418f') in 0.043243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 1 fx.jpg
+  artifactKey: Guid(35bebe4261f55eb4f87a3eac119c0734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 1 fx.jpg using Guid(35bebe4261f55eb4f87a3eac119c0734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb70a623afe5d24297a98a8687ba6f70') in 0.052162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Modular Shelf.prefab
+  artifactKey: Guid(614ef35d962faa240916b73e28e3730a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Prefabs/Modular Shelf.prefab using Guid(614ef35d962faa240916b73e28e3730a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06f283172c9d1b973740fbfcf703062b') in 0.031042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets & Materials/Imported/Inverse Kinematics/3D/Arm.FBX
+  artifactKey: Guid(419339190ddd8b14baeff0b4f9307a55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/Inverse Kinematics/3D/Arm.FBX using Guid(419339190ddd8b14baeff0b4f9307a55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09b887c6bd27981d59976e424064bd23') in 0.046098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/TallCabinetDamaged.fbx
+  artifactKey: Guid(0da4097e7ae4f154b9ce1a0a6df4351f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/TallCabinetDamaged.fbx using Guid(0da4097e7ae4f154b9ce1a0a6df4351f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0136d497af4f8e1507df484ae8d9d45') in 0.046286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 5 metal.mat
+  artifactKey: Guid(d138b0fb81d7974468e1996d97b207c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/Example Materials/Pipe 5 metal.mat using Guid(d138b0fb81d7974468e1996d97b207c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f19272a95fcb640effcbc1d60b833049') in 0.023680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 2 norm.jpg
+  artifactKey: Guid(58a3640cbaa6f514cacc7cf5acab86d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Plastic&Rubber/pipe 2 norm.jpg using Guid(58a3640cbaa6f514cacc7cf5acab86d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d1fbb378ece0be48a605a7b01c62017') in 0.047528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Marcus Scripts/Controller
+  artifactKey: Guid(c0004de6922b6324386026df0ea10938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Marcus Scripts/Controller using Guid(c0004de6922b6324386026df0ea10938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da46cdbe1459b2e72f9e417802c727b8') in 0.037028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/CeilingHungRack1.fbx
+  artifactKey: Guid(c1bcaabfe5b3a6140b93844b51cb0335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models/CeilingHungRack1.fbx using Guid(c1bcaabfe5b3a6140b93844b51cb0335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df97207f223e6836bf148d67948602c9') in 0.040589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 9 norm.jpg
+  artifactKey: Guid(881032fe02afee34492b64ac70ed5248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Assets & Materials/Imported/20 Texture Sets INDUSTRIAL 01/Metallic/pipe 9 norm.jpg using Guid(881032fe02afee34492b64ac70ed5248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff82131a8dd5eaa1036549ae251c54c9') in 0.049861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 255.717151 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c328eaa686ea6ec9a8a9505cc07a90') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 187.956709 seconds.
+  path: Assets/Assets & Materials/Imported/TDG Storage Solutions/Models
+  artifactKey: Guid(e86ccb0ce2fdf7848a7d7a6df74db4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets & Materials/Imported/TDG Storage Solutions/Models using Guid(e86ccb0ce2fdf7848a7d7a6df74db4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafd1f5f49817484246dd1617f9d767c') in 0.000662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 382.486723 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee286ebf993224d21818a4d1aa37b5af') in 0.012081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 207.061783 seconds.
+  path: Assets/Assets & Materials/Marcus Materials/Setpoint Circle Material 1.mat
+  artifactKey: Guid(1b9135a016ed94b4ebef1578f6f758db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets & Materials/Marcus Materials/Setpoint Circle Material 1.mat using Guid(1b9135a016ed94b4ebef1578f6f758db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3948b57163bd29cea39ac9c63ca5e52') in 0.096867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 333.00 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.296 seconds
+Domain Reload Profiling: 1919ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1297ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (531ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 364.36 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 893 unused Assets / (0.7 MB). Loaded Objects now: 3720.
+Memory consumption went from 158.6 MB to 157.9 MB.
+Total: 5.034100 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.260100 ms MarkObjects: 3.445800 ms  DeleteObjects: 0.809800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.546 seconds
+Refreshing native plugins compatible for Editor in 340.90 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.277 seconds
+Domain Reload Profiling: 1819ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (278ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (644ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 352.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 893 unused Assets / (0.8 MB). Loaded Objects now: 3723.
+Memory consumption went from 160.7 MB to 160.0 MB.
+Total: 4.941000 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.128700 ms MarkObjects: 3.464300 ms  DeleteObjects: 0.969900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 414.85 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.321 seconds
+Domain Reload Profiling: 1893ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1321ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 417.69 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 893 unused Assets / (0.7 MB). Loaded Objects now: 3726.
+Memory consumption went from 162.7 MB to 161.9 MB.
+Total: 5.298700 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.141800 ms MarkObjects: 3.836300 ms  DeleteObjects: 0.928000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.586 seconds
+Refreshing native plugins compatible for Editor in 353.82 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.304 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (669ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 346.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 893 unused Assets / (0.7 MB). Loaded Objects now: 3729.
+Memory consumption went from 164.6 MB to 163.9 MB.
+Total: 4.850300 ms (FindLiveObjects: 0.390300 ms CreateObjectMapping: 0.175100 ms MarkObjects: 3.421500 ms  DeleteObjects: 0.862000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.563 seconds
+Refreshing native plugins compatible for Editor in 336.13 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.273 seconds
+Domain Reload Profiling: 1832ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (291ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1274ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 341.49 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 893 unused Assets / (0.7 MB). Loaded Objects now: 3732.
+Memory consumption went from 166.5 MB to 165.8 MB.
+Total: 4.531100 ms (FindLiveObjects: 0.407600 ms CreateObjectMapping: 0.135100 ms MarkObjects: 3.247400 ms  DeleteObjects: 0.739300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
