@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections.Generic;
 using System;
 
@@ -63,7 +63,9 @@ namespace Unity.Robotics.UrdfImporter.Control{
         void FixedUpdate()
         {
             if (dh.Count == jointChain.Count)
-                FK();
+                {
+                    FK();
+                }
         }
 
         /// <summary>

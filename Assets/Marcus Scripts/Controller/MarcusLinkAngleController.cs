@@ -19,17 +19,12 @@ public class MarcusLinkAngleController : MonoBehaviour
 
     public GameObject ikSetpoint;
 
-    public float setAngle1 = 0;
-    public float setAngle2 = 0;
-    public float setAngle3 = 0;
-    public float setAngle4 = 0;
-    public float setAngle5 = 0;
-    public float setAngle6 = 0;
+    [SerializeField] private bool ReadFromRos;
+    [SerializeField] private bool UseInverseKinematics;
+    public static bool readFromRos;
+    public static bool useInverseKinematics;
 
-    public bool readFromRos = false;
-    public bool useInverseKinematics = false;
-
-
+    public UDPConverter convertedAngles;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +35,10 @@ public class MarcusLinkAngleController : MonoBehaviour
 
     void Update()
     {
+        // Setter verdien for en statisk variabel, slik at den kan brukes i UDP_Client.cs
+        readFromRos = ReadFromRos;
+        useInverseKinematics = UseInverseKinematics;
+
         if(readFromRos)
         {
             anglesIn();
@@ -55,25 +54,22 @@ public class MarcusLinkAngleController : MonoBehaviour
     void anglesOut()
     {
         i++;
-        float angle1 = link_1.transform.localEulerAngles.y;
-        float angle2 = link_2.transform.localEulerAngles.x;
-        float angle3 = link_3.transform.localEulerAngles.y;
-        float angle4 = link_4.transform.localEulerAngles.y;
-        float angle5 = link_5.transform.localEulerAngles.x;
-        float angle6 = link_6.transform.localEulerAngles.x;
     
         
         if(useInverseKinematics)
         {
-
-        }
-        else if(i == 2) // change number opposite of "i" to send coordinates less times per second
-        {
-            
             Vector3 setpointPosition = ikSetpoint.transform.position;
             
 
             Debug.Log("Setpoint Position " + setpointPosition);
+
+            i = 0;
+
+            
+        }
+        else if(i == 2) // change number opposite of "i" to send coordinates less times per second
+        {
+            
 
             i = 0;
         }
@@ -84,17 +80,17 @@ public class MarcusLinkAngleController : MonoBehaviour
 
     void anglesIn()
     {
+        float[] anglesIn = convertedAngles.anglesIn;
         
         t++;
-        Debug.Log("Changing coordinates manually: x" + t);
+        //Debug.Log(anglesIn[0] + " " + anglesIn[1] + " " + anglesIn[2] + " " + anglesIn[3] + " " + anglesIn[4] + " " + anglesIn[5] + " x" + t);
 
-        link_1.SetDriveTarget(ArticulationDriveAxis.X, setAngle1);
-        link_2.SetDriveTarget(ArticulationDriveAxis.X, setAngle2);
-        link_3.SetDriveTarget(ArticulationDriveAxis.X, setAngle3);
-        link_4.SetDriveTarget(ArticulationDriveAxis.X, setAngle4);
-        link_5.SetDriveTarget(ArticulationDriveAxis.X, setAngle5);
-        link_6.SetDriveTarget(ArticulationDriveAxis.X, setAngle6);
+        link_1.SetDriveTarget(ArticulationDriveAxis.X, anglesIn[0]);
+        link_2.SetDriveTarget(ArticulationDriveAxis.X, anglesIn[1]);
+        link_3.SetDriveTarget(ArticulationDriveAxis.X, anglesIn[2]);
+        link_4.SetDriveTarget(ArticulationDriveAxis.X, anglesIn[3]);
+        link_5.SetDriveTarget(ArticulationDriveAxis.X, anglesIn[4]);
+        link_6.SetDriveTarget(ArticulationDriveAxis.X, anglesIn[5]);
         
     }  
-    
 }

@@ -1,0 +1,20 @@
+{
+  "name": "omrontm14-unity-ros2-main",
+  "version": "1.0.0",
+  "description": "This project uses Unity and ros2 to simulate a virtual environment of an Omron TM14 collaborative robot. It requires ROS2 Humble and is only tested for Unity v2022.3.16f1. If you are using another ROS distribution, please following the instructions for installing the ros2-for-unity package from scratch.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Marcus Wold",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusPRobot/TM14-Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcusPRobot/TM14-Node/issues"
+  },
+  "homepage": "https://github.com/MarcusPRobot/TM14-Node#readme"
+}

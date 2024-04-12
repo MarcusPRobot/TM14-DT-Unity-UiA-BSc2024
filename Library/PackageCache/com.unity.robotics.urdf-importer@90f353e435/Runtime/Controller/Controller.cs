@@ -65,6 +65,7 @@ namespace Unity.Robotics.UrdfImporter.Control
             SetSelectedJointIndex(selectedIndex); // to make sure it is in the valid range
             UpdateDirection(selectedIndex);
 
+
             if (SelectionInput2)
             {
                 SetSelectedJointIndex(selectedIndex - 1);
@@ -77,6 +78,8 @@ namespace Unity.Robotics.UrdfImporter.Control
             }
 
             UpdateDirection(selectedIndex);
+
+            
         }
 
         /// <summary>
@@ -91,19 +94,19 @@ namespace Unity.Robotics.UrdfImporter.Control
             }
 
             // reset colors for the previously selected joint
-            ResetJointColors(previousIndex);
+            //ResetJointColors(previousIndex);
 
             // store colors for the current selected joint
-            StoreJointColors(selectedIndex);
+            //StoreJointColors(selectedIndex);
 
             DisplaySelectedJoint(selectedIndex);
-            Renderer[] rendererList = articulationChain[selectedIndex].transform.GetChild(0).GetComponentsInChildren<Renderer>();
+            //Renderer[] rendererList = articulationChain[selectedIndex].transform.GetChild(0).GetComponentsInChildren<Renderer>();
 
             // set the color of the selected join meshes to the highlight color
-            foreach (var mesh in rendererList)
-            {
-                MaterialExtensions.SetMaterialColor(mesh.material, highLightColor);
-            }
+            //foreach (var mesh in rendererList)
+            //{
+            //    MaterialExtensions.SetMaterialColor(mesh.material, highLightColor);
+            //}
         }
 
         void DisplaySelectedJoint(int selectedIndex)
@@ -160,26 +163,28 @@ namespace Unity.Robotics.UrdfImporter.Control
         /// <param name="index">Index of the part in the Articulation chain</param>
         private void StoreJointColors(int index)
         {
-            Renderer[] materialLists = articulationChain[index].transform.GetChild(0).GetComponentsInChildren<Renderer>();
-            prevColor = new Color[materialLists.Length];
-            for (int counter = 0; counter < materialLists.Length; counter++)
-            {
-                prevColor[counter] = MaterialExtensions.GetMaterialColor(materialLists[counter]);
-            }
+            //index += 1;
+
+            //Renderer[] materialLists = articulationChain[index].transform.GetChild(0).GetComponentsInChildren<Renderer>();
+            //prevColor = new Color[materialLists.Length];
+            //for (int counter = 0; counter < materialLists.Length; counter++)
+            //{
+            //    prevColor[counter] = MaterialExtensions.GetMaterialColor(materialLists[counter]);
+            //}
         }
 
         /// <summary>
         /// Resets original color of the part being highlighted
         /// </summary>
         /// <param name="index">Index of the part in the Articulation chain</param>
-        private void ResetJointColors(int index)
-        {
-            Renderer[] previousRendererList = articulationChain[index].transform.GetChild(0).GetComponentsInChildren<Renderer>();
-            for (int counter = 0; counter < previousRendererList.Length; counter++)
-            {
-                MaterialExtensions.SetMaterialColor(previousRendererList[counter].material, prevColor[counter]);
-            }
-        }
+        //private void ResetJointColors(int index)
+        //{
+        //    Renderer[] previousRendererList = articulationChain[index].transform.GetChild(0).GetComponentsInChildren<Renderer>();
+        //    for (int counter = 0; counter < previousRendererList.Length; counter++)
+        //    {
+        //        MaterialExtensions.SetMaterialColor(previousRendererList[counter].material, prevColor[counter]);
+        //    }
+        //}
 
         public void UpdateControlType(JointControl joint)
         {
