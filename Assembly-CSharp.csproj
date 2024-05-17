@@ -64,17 +64,20 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MarcusScripts\Aruco Scripts\AutoPickup.cs" />
     <Compile Include="Assets\UI Pictures and Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Marcus Scripts\World Scripts\CameraScript.cs" />
-    <Compile Include="Assets\Marcus Scripts\Controller\SetpointVisuals.cs" />
-    <Compile Include="Assets\Marcus Scripts\Server communication\UDP_Client.cs" />
-    <Compile Include="Assets\Marcus Scripts\Controller\Marcus Controller.cs" />
-    <Compile Include="Assets\Marcus Scripts\Testing Scripts\WeightBlockMover.cs" />
-    <Compile Include="Assets\Marcus Scripts\CobotMovement\DragAndDrop.cs" />
-    <Compile Include="Assets\Marcus Scripts\Controller\MarcusLinkAngleController.cs" />
-    <Compile Include="Assets\Marcus Scripts\UDPConverter.cs" />
-    <Compile Include="Assets\Marcus Scripts\ConveyerBelt\ConveyerSimpleMovement.cs" />
-    <Compile Include="Assets\Marcus Scripts\Controller\SetpointSaver.cs" />
+    <Compile Include="Assets\MarcusScripts\Controller\SetpointVisuals.cs" />
+    <Compile Include="Assets\MarcusScripts\Controller\Marcus Controller.cs" />
+    <Compile Include="Assets\MarcusScripts\Controller\SetpointSaver.cs" />
+    <Compile Include="Assets\MarcusScripts\CobotMovement\DragAndDrop.cs" />
+    <Compile Include="Assets\MarcusScripts\Server communication\UDP_Client.cs" />
+    <Compile Include="Assets\MarcusScripts\Testing Scripts\WeightBlockMover.cs" />
+    <Compile Include="Assets\MarcusScripts\ConveyerBelt\ConveyerSimpleMovement.cs" />
+    <Compile Include="Assets\MarcusScripts\World Scripts\CameraScript.cs" />
+    <Compile Include="Assets\MarcusScripts\Controller\MarcusLinkAngleController.cs" />
+    <Compile Include="Assets\MarcusScripts\Datalogging\DataLogging.cs" />
+    <Compile Include="Assets\MarcusScripts\UDPConverter.cs" />
+    <Compile Include="Assets\MarcusScripts\Aruco Scripts\ArucoBox.cs" />
     <Compile Include="Assets\SavedOptions.cs" />
   </ItemGroup>
   <ItemGroup>
