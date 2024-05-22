@@ -335,12 +335,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: '
 
-    DIRECT CONTROL
+    AUTONOMOUS CONTROL
 
-    Switch joint:  Left & Right arrows
+    Pick And Place: 5
 
-    Move
-    joint:  Up & Down arrows
+    Stack cubes:  6
+
+    Reset
+    cube stacking: 4
 
 
     SETPOINT CONTROLS
@@ -356,30 +358,35 @@ MonoBehaviour:
 
     Save setpoint: F
 
-    Push
-    setpoints: P
+    Save
+    grip-setpoing: G
+
+    Push setpoints: P
 
     Reset setpoints: R
 
-    Toggle control visuals: T
+    Toggle control
+    visuals: T
 
-    Gripper
-    x-rotation: Y & I
+    Gripper x-rotation: Y & I
 
     Gripper y-rotation: H & K
 
-    Gripper z-rotation: U &
-    J
+    Gripper
+    z-rotation: U & J
 
     Reset gripper rotation: O
+
+    Point gripper downwards:
+    9
+
+    Attach to cube: 3 (if cartesian control)
 
 
     CONVEYER BELT CONTROLS
 
-    Enable/Disable
-    belt: B
-
-    Conveyer speed: N & M
+    (Deactivated
+    and unfinished)
 
 
 '
@@ -761,8 +768,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.961395, y: -0.000015258789}
-  m_SizeDelta: {x: -21.9228, y: 0.000061035}
+  m_AnchoredPosition: {x: -11.5697, y: 0}
+  m_SizeDelta: {x: -23.1396, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &296262975
 MonoBehaviour:
@@ -784,7 +791,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CONTROLS
+  m_text: 'CONTROLS
+
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -895,7 +906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -49.7718, y: 55}
+  m_AnchoredPosition: {x: -48.834, y: 50.57}
   m_SizeDelta: {x: 101.14099, y: 101.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &360382779
@@ -1911,10 +1922,10 @@ RectTransform:
   - {fileID: 1020318683}
   m_Father: {fileID: 376328123}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0025024414, y: -82.97391}
-  m_SizeDelta: {x: -0.0050049, y: -165.9478}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0025024414, y: -82.974}
+  m_SizeDelta: {x: 1239.995, y: 550.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554334325
 MonoBehaviour:
@@ -2353,7 +2364,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -15}
+  m_AnchoredPosition: {x: 0, y: -14.9999695}
   m_SizeDelta: {x: -863.21, y: -459.78534}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797920687
@@ -2812,8 +2823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 195.41858, y: 264.9588}
-  m_SizeDelta: {x: 352.21, y: 490.1776}
+  m_AnchoredPosition: {x: 192.66385, y: 316.1965}
+  m_SizeDelta: {x: 357.7195, y: 592.653}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &911034167
 MonoBehaviour:
@@ -3642,10 +3653,10 @@ RectTransform:
   - {fileID: 1446577570}
   m_Father: {fileID: 554334324}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -187}
-  m_SizeDelta: {x: -536.845, y: -347.59094}
+  m_SizeDelta: {x: 703.155, y: 202.40906}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1522973834
 MonoBehaviour:
@@ -4821,8 +4832,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -41.910645, y: 54.655518}
-  m_SizeDelta: {x: 83.822754, y: 109.31171}
+  m_AnchoredPosition: {x: -48.833496, y: 52.3479}
+  m_SizeDelta: {x: 97.6685, y: 104.6965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098186802
 MonoBehaviour:
