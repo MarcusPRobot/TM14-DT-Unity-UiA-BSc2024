@@ -15,7 +15,13 @@ https://github.com/evenlangas/omrontm14-unity-ros2/tree/main
 
 # Communication server and its nodes
 **Bachelor-g2-v24**
-https://github.com/EliasLand/Bachelor-g2-v24
+https://github.com/EliasLand/TM14-DT-Node-RED-ROS2-UiA-BSc2024
+
+**PLC Programming files**
+https://github.com/TorePang/PLC-programming/tree/main
+
+**Project video**
+https://www.youtube.com/watch?v=NohlCqEGKVM
 
 # Program scripts
 The self-developed scripts are found within **TM14_DT_BSc2024\Assets\Scripts**, scripts found outside of that folder is most likely imported through Assets.
