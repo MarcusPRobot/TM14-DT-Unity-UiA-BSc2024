@@ -24,4 +24,4 @@ https://github.com/TorePang/PLC-programming/tree/main
 https://www.youtube.com/watch?v=NohlCqEGKVM
 
 # Program scripts
-The self-developed scripts are found within **TM14_DT_BSc2024\Assets\Scripts**, scripts found outside of that folder is most likely imported through Assets.
+The self-developed scripts are found within **TM14_DT_BSc2024\Assets\Scripts**, scripts found outside of that folder is most likely imported through Assets or moved away as they were no longer in use.
