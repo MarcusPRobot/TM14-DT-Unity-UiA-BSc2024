@@ -21,7 +21,7 @@ https://github.com/EliasLand/TM14-DT-Node-RED-ROS2-UiA-BSc2024
 https://github.com/TorePang/PLC-programming/tree/main
 
 **Project video**
-https://www.youtube.com/watch?v=NohlCqEGKVM
+https://www.youtube.com/watch?v=saMr48I3a2o
 
 **Repository with all llinks**
 https://github.com/MarcusPRobot/UiA-BScThesis-S24-G2/blob/main/README.md
