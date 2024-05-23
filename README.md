@@ -23,5 +23,8 @@ https://github.com/TorePang/PLC-programming/tree/main
 **Project video**
 https://www.youtube.com/watch?v=NohlCqEGKVM
 
+**Repository with all llinks**
+https://github.com/MarcusPRobot/UiA-BScThesis-S24-G2/blob/main/README.md
+
 # Program scripts
 The self-developed scripts are found within **TM14_DT_BSc2024\Assets\Scripts**, scripts found outside of that folder is most likely imported through Assets or moved away as they were no longer in use.
